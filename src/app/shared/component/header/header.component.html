@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <button class="main-hamburger d-lg-block d-none" type="button" (click)="toggle()" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <img src="../../../assets/images/pwc_standard.jpg" />
+  </a>
+  <button class="navbar-toggler" type="button" (click)="toggle()" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <div class="form-group">
+        <select class="form-control">
+          <option>Madison</option>
+          <option>Portal</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Search" class="form-control" />
+        <span class="glyphicon glyphicon-search"></span>
+      </div>
+    </form>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        <img src="../../../assets/images/user.jpg" />
+        <span class="username">John Doe</span>
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li>
+          <a href="#">Role: Consultant</a>
+        </li>
+        <li>
+          <a href="#">Edit Profile</a>
+        </li>
+        <li>
+          <a href="#">Settings</a>
+        </li>
+        <li role="separator" class="divider"></li>
+        <li>
+          <a href="#">Sign Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
